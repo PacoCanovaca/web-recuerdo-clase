@@ -1,0 +1,84 @@
+/* --- RESET Y VARIABLES BÁSICAS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+/* --- SECCIÓN 1: HERO --- */
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url('../assets/images/group.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+.btn-comenzar {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.btn-comenzar:hover {
+    background-color: #d68910;
+    transform: translateY(-3px);
+}
+
+/* --- SECCIÓN 2: MUSEO (Temporal para que el scroll funcione) --- */
+#museo {
+    height: 100vh;
+    background-color: #f4f4f9;
+}
