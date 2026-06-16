@@ -25,7 +25,53 @@
 
     <main>
         <section id="museo">
-            </section>
+            <div class="museo-container">
+                <h2 class="museo-titulo">🏛️ El Museo Virtual 🏛️</h2>
+                
+                <div class="museo-grid">
+                    <div class="sala-card sala-excursiones" data-sala="excursiones">
+                        <div class="sala-icon-wrapper">🚌</div>
+                        <h3>Sala de las Excursiones</h3>
+                        <p>Fotos y anécdotas de nuestras salidas.</p>
+                    </div>
+                    
+                    <div class="sala-card sala-frases" data-sala="frases">
+                        <div class="sala-icon-wrapper">💬</div>
+                        <h3>Frases Míticas</h3>
+                        <p>"Pero Paco, ¿esto entra en el examen?"</p>
+                    </div>
+                    
+                    <div class="sala-card sala-talentos" data-sala="talentos">
+                        <div class="sala-icon-wrapper">🎨</div>
+                        <h3>Sala de los Talentos</h3>
+                        <p>Trabajos destacados, dibujos y proyectos.</p>
+                    </div>
+                    
+                    <div class="sala-card sala-momentos" data-sala="momentos">
+                        <div class="sala-icon-wrapper">🏆</div>
+                        <h3>Grandes Momentos</h3>
+                        <p>El torneo de ajedrez y recuerdos imborrables.</p>
+                    </div>
+
+                    <div class="sala-card sala-proyectos" data-sala="proyectos">
+                        <div class="sala-icon-wrapper">💡</div>
+                        <h3>Nuestros Proyectos</h3>
+                        <p>El fruto de nuestro trabajo en equipo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="museo-modal" class="modal-overlay">
+            <div class="modal-content">
+                <button id="close-modal" class="btn-cerrar">&times;</button>
+                <div class="modal-header">
+                    <h3 id="modal-titulo">Título de la Sala</h3>
+                </div>
+                <div id="modal-body" class="modal-body">
+                    </div>
+            </div>
+        </div>
     </main>
 
     <footer id="final">

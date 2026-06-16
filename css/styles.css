@@ -95,10 +95,166 @@ html {
     transform: translateY(-3px);
 }
 
-/* --- SECCIÓN 2: MUSEO (Temporal para que el scroll funcione) --- */
+/* --- SECCIÓN 2: MUSEO VIRTUAL --- */
 #museo {
-    height: 100vh;
-    background-color: #f4f4f9;
+    min-height: 100vh;
+    background-color: #f4f4f9; 
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.museo-container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.museo-titulo {
+    font-size: 3rem;
+    color: #2c3e50; 
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.museo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* --- ASIGNACIÓN DE COLORES POR SALA (Sustituye al style inline) --- */
+.sala-excursiones { --theme-color: #3498db; } /* Azul */
+.sala-frases      { --theme-color: #2ecc71; } /* Verde */
+.sala-talentos    { --theme-color: #9b59b6; } /* Morado */
+.sala-momentos    { --theme-color: #e67e22; } /* Naranja */
+.sala-proyectos   { --theme-color: #e74c3c; } /* Coral/Rojo */
+
+/* --- MAQUETACIÓN BASE DE LAS TARJETAS --- */
+.sala-card {
+    background-color: #ffffff;
+    flex: 1 1 300px; 
+    max-width: 350px; 
+    border-radius: 15px; 
+    border-top: 6px solid var(--theme-color);
+    padding: 40px 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s ease;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sala-card:hover {
+    scale: 102%;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1), 0 5px 15px var(--theme-color);
+}
+
+.sala-icon-wrapper {
+    width: 90px;
+    height: 90px;
+    background-color: #f8f9fa; 
+    border: 3px solid var(--theme-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sala-card:hover .sala-icon-wrapper {
+    background-color: var(--theme-color);
+}
+
+.sala-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.sala-card p {
+    font-size: 1.1rem;
+    color: #666666; 
+    line-height: 1.5;
+}
+
+/* --- MODAL DEL MUSEO (Oculto por defecto) --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+.modal-overlay.active .modal-content {
+    transform: translateY(0);
+}
+
+.btn-cerrar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #999999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn-cerrar:hover {
+    color: #e74c3c;
+}
+
+.modal-header h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f4f4f9;
+}
+
+.modal-body {
+    color: #444444;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 /* --- SECCIÓN 5: EL FINAL --- */
