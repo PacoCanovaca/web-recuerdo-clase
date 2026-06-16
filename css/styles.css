@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
 /* --- RESET Y VARIABLES BÁSICAS --- */
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 /* --- SECCIÓN 1: HERO --- */
@@ -47,16 +49,23 @@ html {
 }
 
 .hero-content h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    line-height: 100%;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    animation: fadeInDown; 
+    animation-duration: 1s;
 }
 
 .hero-content p {
     font-size: 1.5rem;
-    margin-bottom: 40px;
     font-style: italic;
+    margin-bottom: 40px;
     color: #e0e0e0;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 
 .btn-comenzar {
@@ -70,6 +79,10 @@ html {
     border-radius: 50px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    animation: zoomIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
 }
 
 .btn-comenzar:hover {
@@ -81,4 +94,65 @@ html {
 #museo {
     height: 100vh;
     background-color: #f4f4f9;
+}
+
+/* --- SECCIÓN 5: EL FINAL --- */
+#final {
+    width: 100%;
+    min-height: 100vh; /* Ocupa toda la pantalla para darle dramatismo y pausas a la lectura */
+    background-color: #1a1a1a; /* Fondo oscuro liso y elegante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 40px 20px;
+}
+
+.final-content {
+    color: #ffffff;
+    max-width: 800px;
+}
+
+.final-content p {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #cccccc; /* Un gris claro para que no fatigue la vista */
+    line-height: 1.6;
+}
+
+/* Destacamos la última frase de agradecimiento */
+.final-content p.highlight {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilo para tu firma */
+.final-content .firma {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #f39c12; /* El mismo color de acento de tu botón principal */
+}
+
+/* Botón "Volver al principio" */
+.btn-volver {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: transparent; /* Fondo transparente para diferenciarlo del primer botón */
+    color: #f39c12;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #f39c12;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #f39c12;
+    color: #ffffff;
+    transform: translateY(-3px);
 }
