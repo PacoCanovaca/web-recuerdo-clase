@@ -68,6 +68,14 @@ html {
     animation-fill-mode: both;
 }
 
+.hero-btn-container {
+    display: inline-block;
+    animation: zoomIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
 .btn-comenzar {
     display: inline-block;
     padding: 15px 30px;
@@ -77,16 +85,13 @@ html {
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 50px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    animation: zoomIn;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-fill-mode: both;
+    transition: background-color 0.3s ease, scale 0.3s ease, transform 0.3s ease;
 }
 
 .btn-comenzar:hover {
     background-color: #d68910;
+    scale: 105%;
     transform: translateY(-3px);
 }
 
@@ -99,8 +104,8 @@ html {
 /* --- SECCIÓN 5: EL FINAL --- */
 #final {
     width: 100%;
-    min-height: 100vh; /* Ocupa toda la pantalla para darle dramatismo y pausas a la lectura */
-    background-color: #1a1a1a; /* Fondo oscuro liso y elegante */
+    min-height: 100vh;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,11 +121,10 @@ html {
 .final-content p {
     font-size: 1.4rem;
     margin-bottom: 5px;
-    color: #cccccc; /* Un gris claro para que no fatigue la vista */
+    color: #cccccc;
     line-height: 1.6;
 }
 
-/* Destacamos la última frase de agradecimiento */
 .final-content p.highlight {
     font-size: 1.8rem;
     color: #ffffff;
@@ -128,31 +132,29 @@ html {
     font-weight: bold;
 }
 
-/* Estilo para tu firma */
 .final-content .firma {
     font-size: 2.5rem;
-    font-weight: normal;
     margin-bottom: 50px;
     margin-top: 20px;
-    color: #f39c12; /* El mismo color de acento de tu botón principal */
+    color: #f39c12;
 }
 
-/* Botón "Volver al principio" */
 .btn-volver {
     display: inline-block;
     padding: 12px 30px;
-    background-color: transparent; /* Fondo transparente para diferenciarlo del primer botón */
+    background-color: transparent;
     color: #f39c12;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
     border: 2px solid #f39c12;
     border-radius: 50px;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, scale 0.3s ease, transform 0.3s ease;
 }
 
 .btn-volver:hover {
     background-color: #f39c12;
     color: #ffffff;
+    scale: 105%;
     transform: translateY(-3px);
 }
