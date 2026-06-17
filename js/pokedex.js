@@ -61,8 +61,6 @@ export const initPokedex = () => {
         modalRecomendacion.textContent = alumno.recomendacion;
 
         modalTipo.className = 'type-badge';
-        
-        // Paso a minúsculas y eliminación de tildes (ej: "Eléctrico" -> "electrico")
         const tipoClase = alumno.tipo
             .toLowerCase()
             .normalize("NFD")
