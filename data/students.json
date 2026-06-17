@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ana",
+    "nombre": "Ana",
+    "tipo": "Eléctrico",
+    "habilidad": "Siempre tiene energía para ayudar.",
+    "movimiento": "Pregunta Inesperada.",
+    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Ana",
+    "recomendacion": "Nunca pierdas esa curiosidad que te hace aprender cosas nuevas."
+  },
+  {
+    "id": "carlos",
+    "nombre": "Carlos",
+    "tipo": "Fuego",
+    "habilidad": "Entusiasmo contagioso en los trabajos en equipo.",
+    "movimiento": "Chiste en el momento justo.",
+    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Carlos",
+    "recomendacion": "Sigue contagiando esa alegría allá donde vayas el próximo curso."
+  },
+  {
+    "id": "lucia",
+    "nombre": "Lucía",
+    "tipo": "Psíquico",
+    "habilidad": "Gran estratega en el torneo de ajedrez.",
+    "movimiento": "Silencio absoluto de concentración.",
+    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Lucia",
+    "recomendacion": "Tu constancia y mente analítica te llevarán lejísimos. ¡Confía en ti!"
+  }
+]

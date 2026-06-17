@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
     
-    <script src="js/main.js" defer></script>
+    <script type="module" src="js/main.js"></script>
 </head>
 <body>
     <header id="hero">
@@ -26,7 +26,7 @@
     <main>
         <section id="museo">
             <div class="museo-container">
-                <h2 class="museo-titulo">🏛️ El Museo Virtual 🏛️</h2>
+                <h2 class="museo-titulo">🏛️ Museo Virtual 🏛️</h2>
                 
                 <div class="museo-grid">
                     <div class="sala-card sala-excursiones" data-sala="excursiones">
@@ -62,7 +62,7 @@
             </div>
         </section>
 
-        <div id="museo-modal" class="modal-overlay">
+        <article id="museo-modal" class="modal-overlay">
             <div class="modal-content">
                 <button id="close-modal" class="btn-cerrar">&times;</button>
                 <div class="modal-header">
@@ -71,7 +71,47 @@
                 <div id="modal-body" class="modal-body">
                     </div>
             </div>
-        </div>
+        </article>
+
+        <section id="pokedex">
+            <div class="pokedex-container">
+                <h2 class="pokedex-titulo">
+                    <img src="assets/images/pokeball.png" alt="Pokéball" class="pokeball-icono">
+                    <span>Pokédex de la Clase</span>
+                    <img src="assets/images/pokeball.png" alt="Pokéball" class="pokeball-icono">
+                </h2>
+                
+                <div class="pokedex-grid" id="pokedex-grid"></div>
+            </div>
+        </section>
+
+        <article id="pokedex-modal" class="poke-modal-overlay">
+            <div class="poke-modal-content">
+                <button id="close-pokedex-modal" class="poke-btn-cerrar">&times;</button>
+                
+                <div class="pokedex-screen">
+                    <div class="screen-avatar-wrapper">
+                        <img id="poke-modal-avatar" src="" alt="Avatar Alumno">
+                    </div>
+                    
+                    <div class="screen-info">
+                        <h3 id="poke-modal-nombre">NOMBRE</h3>
+                        <p class="poke-meta">TIPO: <span id="poke-modal-tipo" class="type-badge">ELÉCTRICO</span></p>
+                        
+                        <div class="poke-stats">
+                            <p><strong>Habilidad Especial:</strong> <br><span id="poke-modal-habilidad">...</span></p>
+                            <p><strong>Movimiento Definitivo:</strong> <br><span id="poke-modal-movimiento">...</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pokedex-recommendation">
+                    <h4>📝 Un mensaje para ti: </h4>
+                    <p id="poke-modal-recomendacion">...</p>
+                </div>
+            </div>
+        </article>
+
     </main>
 
     <footer id="final">
