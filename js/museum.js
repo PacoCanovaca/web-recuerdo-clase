@@ -23,7 +23,7 @@ export const initMuseo = () => {
                 `
         },
         baneos: {
-            titulo: "Los Baneos del Profe",
+            titulo: "Baneos del Profe",
             contenido: `
                 <p>Seamos sinceros: a veces os poníais muy intensos con las modas de internet.</p>
                 <p>Esta sala es un homenaje a todos esos <strong>memes virales, canciones, bromas y frasecitas</strong> que acabaron estrictamente prohibidos en clase porque no parabais de repetirlos.</p>
@@ -61,7 +61,7 @@ export const initMuseo = () => {
                     <li>Las partidas a los <strong>juegos de mesa</strong> donde sacabais vuestro lado más estratega y donde hasta el profe se picaba de vez en cuando.</li>
                     <li>Los <strong>debates</strong> en los que defendíais vuestras ideas con uñas y dientes, incluso aunque os tocara un punto de vista complicado u opuesto a lo que pensabais en realidad.</li>
                     <li>Todos esos <strong>proyectos</strong> donde sacabais vuestro investigador interior y desplegabais vuestra creatividad (que no es poca), ya fuera a mano o a ordenador.</li>
-                    <li>¡Hasta hemos hecho un concurso de talentos!</li>
+                    <li>¡Hasta hemos hecho un <strong>concurso de talentos</strong>!</li>
                 </ul>
                 <p>Gracias por darle tanta vida a cada propuesta que traía al aula.</p>
 

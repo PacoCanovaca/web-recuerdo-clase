@@ -25,5 +25,239 @@
     "movimiento": "Silencio absoluto de concentración.",
     "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Lucia",
     "recomendacion": "Tu constancia y mente analítica te llevarán lejísimos. ¡Confía en ti!"
+  },
+  {
+    "id": "",
+    "nombre": "",
+    "tipo": "",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "hugo",
+    "nombre": "Hugo",
+    "tipo": "Fuego",
+    "habilidad": "Aporta grandes ideas y lidera al grupo cuando más se le necesita",
+    "movimiento": "Llama creativa",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "samu",
+    "nombre": "Samuel",
+    "tipo": "Psíquico",
+    "habilidad": "Aunque los demás piensen que es despistado, es capaz de centrar su atención y sacar el máximo de aquello que le genera interés.",
+    "movimiento": "Súper-concentración",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "miguel",
+    "nombre": "Miguel",
+    "tipo": "Lucha",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "gabriela",
+    "nombre": "Gabriela",
+    "tipo": "Agua",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "abraham",
+    "nombre": "Abraham",
+    "tipo": "Eléctrico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "alberto",
+    "nombre": "Alberto",
+    "tipo": "Psíquico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "leomo",
+    "nombre": "Leo Mo.",
+    "tipo": "Planta",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "alicia",
+    "nombre": "Alicia",
+    "tipo": "Agua",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "angel",
+    "nombre": "Ángel",
+    "tipo": "Fuego",
+    "habilidad": "Contagia su cariño y su entusiasmo a las personas que le rodean",
+    "movimiento": "Fuego interior",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "leomu",
+    "nombre": "Leo Mu.",
+    "tipo": "Eléctrico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "david",
+    "nombre": "David",
+    "tipo": "Lucha",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "hector",
+    "nombre": "Héctor",
+    "tipo": "Psíquico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "ayla",
+    "nombre": "Ayla",
+    "tipo": "Agua",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "julia",
+    "nombre": "Julia",
+    "tipo": "Planta",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "olivia",
+    "nombre": "Olivia",
+    "tipo": "Eléctrico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "cristinar",
+    "nombre": "Cristina R.",
+    "tipo": "Fuego",
+    "habilidad": "Aporta confianza y alegría al grupo. Todos quieren estar cerca de ella",
+    "movimiento": "Hoguera de amistad",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "jaime",
+    "nombre": "Jaime",
+    "tipo": "Agua",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "carmen",
+    "nombre": "Carmen",
+    "tipo": "Planta",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "gonzalo",
+    "nombre": "Gonzalo",
+    "tipo": "Agua",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "marta",
+    "nombre": "Marta",
+    "tipo": "Psíquico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "paula",
+    "nombre": "Paula",
+    "tipo": "Planta",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "cristinav",
+    "nombre": "Cristina V.",
+    "tipo": "Eléctrico",
+    "habilidad": "",
+    "movimiento": "Danza moderna",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "rafa",
+    "nombre": "Rafa",
+    "tipo": "Fuego",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "damon",
+    "nombre": "Damon",
+    "tipo": "Eléctrico",
+    "habilidad": "",
+    "movimiento": "",
+    "avatar": "",
+    "recomendacion": ""
+  },
+  {
+    "id": "paco",
+    "nombre": "Paco",
+    "tipo": "Fuego",
+    "habilidad": "",
+    "movimiento": "Abrazo cálido",
+    "avatar": "",
+    "recomendacion": ""
   }
 ]
