@@ -125,12 +125,12 @@ html {
     gap: 30px;
 }
 
-/* --- ASIGNACIÓN DE COLORES POR SALA (Sustituye al style inline) --- */
-.sala-excursiones { --theme-color: #3498db; } /* Azul */
-.sala-frases      { --theme-color: #2ecc71; } /* Verde */
-.sala-talentos    { --theme-color: #9b59b6; } /* Morado */
-.sala-momentos    { --theme-color: #e67e22; } /* Naranja */
-.sala-proyectos   { --theme-color: #e74c3c; } /* Coral/Rojo */
+/* --- ASIGNACIÓN DE COLORES POR SALA --- */
+.sala-excursiones { --theme-color: #3498db; }
+.sala-baneos      { --theme-color: #e74c3c; }
+.sala-cartas      { --theme-color: #f1c40f; }
+.sala-dinamicas   { --theme-color: #9b59b6; }
+.sala-recreo      { --theme-color: #2ecc71; }
 
 .sala-card {
     background-color: #ffffff;
@@ -254,6 +254,54 @@ html {
     color: #444444;
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+.modal-body p {
+    margin-bottom: 20px;
+}
+
+.modal-body ul {
+    margin: 50px;
+}
+
+/* --- ESTILOS PARA GALERÍAS DE FOTOS (MUSEO) --- */
+
+.galeria-fotos-excursion {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 0; 
+    margin: 25px 0; 
+    padding: 10px;
+}
+
+.galeria-fotos-excursion img {
+    max-width: 30%; 
+    height: auto;
+    border: 5px solid #fff; 
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3); 
+    transition: transform 0.3s ease, z-index 0.3s ease; 
+    position: relative;
+    z-index: 1;
+}
+
+.galeria-fotos-excursion img:not(:first-child) {
+    margin-left: -40px; 
+}
+
+.img-tilted-left {
+    transform: rotate(-7deg);
+}
+
+.img-tilted-right {
+    transform: rotate(5deg);
+}
+
+.galeria-fotos-excursion img:hover {
+    transform: scale(1.1) rotate(0deg);
+    z-index: 10;
+    cursor: pointer;
 }
 
 /* --- SECCIÓN 3: POKÉDEX DE LA CLASE --- */
