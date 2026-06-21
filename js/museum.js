@@ -46,9 +46,9 @@ export const initMuseo = () => {
                 <p>Habéis dado paseos, habéis disfrutado de canciones y abrazos de vuestros compañeros y os habéis librado de algún que otro castigo. Pero, sobre todo, habéis aprendido a gestionar los recursos y a esforzaros para conseguir un objetivo... ¡Además de convertiros en grandes lectores!</p>
 
                 <section class="galeria-fotos-excursion">
-                    <img src="img/cartas_1.jpg" class="img-tilted-left">
-                    <img src="img/cartas_2.jpg" class="img-tilted-right">
-                    <img src="img/cartas_3.jpg" class="img-tilted-left">
+                    <img src="assets/museum/cartas_1.png" class="img-tilted-left">
+                    <img src="assets/museum/cartas_2.png" class="img-tilted-right">
+                    <img src="assets/museum/cartas_3.png" class="img-tilted-left">
                 </section>
             `
         },
