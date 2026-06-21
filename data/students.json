@@ -5,7 +5,7 @@
     "tipo": "Fuego",
     "habilidad": "Tiene un gran liderazgo y aporta grandes ideas cuando el grupo más lo necesita. Genera una llama que atrae a los compañeros hacia él.",
     "movimiento": "Ascuas creativas",
-    "avatar": ""
+    "avatar": "assets/pokedex/hugo.png"
   },
   {
     "id": "samu",
@@ -13,7 +13,7 @@
     "tipo": "Psíquico",
     "habilidad": "Aunque los demás piensen que es despistado, es capaz de centrar su atención y sacar el máximo de aquello que le genera interés.",
     "movimiento": "Súper-concentración",
-    "avatar": ""
+    "avatar": "assets/pokedex/samuel.png"
   },
   {
     "id": "miguel",
@@ -21,7 +21,7 @@
     "tipo": "Lucha",
     "habilidad": "Pelea con el cuerpo pero también con la mente. Tiene una gran capacidad creativa y una importante habilidad para llamar al orden y a la justicia.",
     "movimiento": "Contraataque argumentativo",
-    "avatar": ""
+    "avatar": "assets/pokedex/miguel.png"
   },
   {
     "id": "gabriela",
@@ -29,7 +29,7 @@
     "tipo": "Agua",
     "habilidad": "Afronta los retos con paz y una actitud tranquila, apaciguando los nervios de sus compañeros y generando un clima de relajación y despreocupación.",
     "movimiento": "Ola de calma",
-    "avatar": ""
+    "avatar": "assets/pokedex/gabriela.png"
   },
   {
     "id": "abraham",
@@ -37,7 +37,7 @@
     "tipo": "Eléctrico",
     "habilidad": "A veces parece tranquilo, pero en realidad está guardando energía para desplegar toda su electricidad en aquellas actividades que más le gustan.",
     "movimiento": "Disparo sobrecargado",
-    "avatar": ""
+    "avatar": "assets/pokedex/abraham.png"
   },
   {
     "id": "alberto",
@@ -45,7 +45,7 @@
     "tipo": "Psíquico",
     "habilidad": "Aporta datos curiosos y culturales a cada situación de aprendizaje. Deja con la boca abierta a cualquiera con sus conocimientos (hasta a los propios profes).",
     "movimiento": "Pantallazo de sabiduría",
-    "avatar": ""
+    "avatar": "assets/pokedex/alberto.png"
   },
   {
     "id": "leomo",
@@ -53,7 +53,7 @@
     "tipo": "Planta",
     "habilidad": "Tiene un gran corazón. Es trabajador, comprometido y siempre quiere que los demás se sientan bien. Todo el mundo disfruta de la grandeza que guarda en su interior.",
     "movimiento": "Semilla de bondad",
-    "avatar": ""
+    "avatar": "assets/pokedex/leomo.png"
   },
   {
     "id": "alicia",
@@ -61,7 +61,7 @@
     "tipo": "Agua",
     "habilidad": "No tiene ninguna preocupación, es capaz de ver algo bueno en cada situación complicada y cuida de las personas que le rodean.",
     "movimiento": "Río de adaptabilidad",
-    "avatar": ""
+    "avatar": "assets/pokedex/alicia.png"
   },
   {
     "id": "angel",
@@ -69,7 +69,7 @@
     "tipo": "Fuego",
     "habilidad": "Contagia su cariño y su entusiasmo a las personas que le rodean. La llama que lleva dentro se transmite con facilidad.",
     "movimiento": "Fuego interior",
-    "avatar": ""
+    "avatar": "assets/pokedex/angel.png"
   },
   {
     "id": "leomu",
@@ -77,7 +77,7 @@
     "tipo": "Eléctrico",
     "habilidad": "Es capaz de romper la tensión del momento con una salida divertida e inesperada. La cantidad de risas que saca genera energía infinita.",
     "movimiento": "Cortocircuito cómico",
-    "avatar": ""
+    "avatar": "assets/pokedex/leomu.png"
   },
   {
     "id": "david",
@@ -85,7 +85,7 @@
     "tipo": "Lucha",
     "habilidad": "Tiene una gran capacidad de implicarse con sus labores. Lucha hasta el final, dándolo todo de sí mismo, superando retos que nadie creía poder lograr.",
     "movimiento": "Fuerza de voluntad extrema",
-    "avatar": ""
+    "avatar": "assets/pokedex/david.png"
   },
   {
     "id": "hector",
@@ -93,7 +93,7 @@
     "tipo": "Psíquico",
     "habilidad": "Tiene la capacidad de conectar puntos de manera magistral. Pocas personas son capaces de expresar ideas y pensamientos complejos como él. Cuando cuenta algo, todos quieren escuchar.",
     "movimiento": "Hipnosis narrativa",
-    "avatar": ""
+    "avatar": "assets/pokedex/hector.png"
   },
   {
     "id": "ayla",
@@ -101,7 +101,7 @@
     "tipo": "Agua",
     "habilidad": "Transmite alegría y sube el ánimo a cualquiera con sus ganas y su buena disposición para superar los obstáculos. Todos quieren contagiarse de ella.",
     "movimiento": "Chapuzón optimista",
-    "avatar": ""
+    "avatar": "assets/pokedex/ayla.png"
   },
   {
     "id": "julia",
@@ -109,7 +109,7 @@
     "tipo": "Planta",
     "habilidad": "Tiene la sonrisa más bonita y sincera, tanto por lo que refleja en el exterior como por lo que guarda dentro. Aporta oxígeno de la mejor calidad a las personas que la rodean.",
     "movimiento": "Refugio purificador del alma",
-    "avatar": ""
+    "avatar": "assets/pokedex/julia.png"
   },
   {
     "id": "olivia",
@@ -117,7 +117,7 @@
     "tipo": "Eléctrico",
     "habilidad": "Siempre tiene la mano levantada para intervenir y siempre está dispuesta a ayudar a cualquiera que lo necesite con sus conocimientos. Puede aportar su granito de arena en cada situación.",
     "movimiento": "Impactrueno participativo",
-    "avatar": ""
+    "avatar": "assets/pokedex/olivia.png"
   },
   {
     "id": "cristinar",
@@ -125,7 +125,7 @@
     "tipo": "Fuego",
     "habilidad": "Aporta confianza y alegría al grupo. Todos quieren estar cerca de ella para sentirse felices y acompañados.",
     "movimiento": "Hoguera de amistad",
-    "avatar": ""
+    "avatar": "assets/pokedex/cristinar.png"
   },
   {
     "id": "jaime",
@@ -133,7 +133,7 @@
     "tipo": "Agua",
     "habilidad": "Fluye con una sonrisa contagiosa ante todos los cambios y desafíos que se le presentan.",
     "movimiento": "Corriente alegre",
-    "avatar": ""
+    "avatar": "assets/pokedex/jaime.png"
   },
   {
     "id": "jesus",
@@ -141,7 +141,7 @@
     "tipo": "Planta",
     "habilidad": "Establece vínculos fuertes y sinceros, aportando su compromiso y siendo vitamina para los que están a su alrededor. Además, tiene una gran habilidad oculta para resolver misterios.",
     "movimiento": "Hoja afilada de confianza",
-    "avatar": ""
+    "avatar": "assets/pokedex/jesus.png"
   },
   {
     "id": "miriam",
@@ -149,7 +149,7 @@
     "tipo": "Lucha",
     "habilidad": "A pesar de las dificultades, es una luchadora. Pelea hasta el final y no se rinde nunca. Es capaz de adaptarse y a encontrar su sitio en cualquier lugar. Cuando sufre una derrota, resurge más fuerte.",
     "movimiento": "Golpe de resiliencia",
-    "avatar": ""
+    "avatar": "assets/pokedex/miriam.png"
   },
   {
     "id": "carmen",
@@ -157,7 +157,7 @@
     "tipo": "Planta",
     "habilidad": "Conmueve y vuelve locos los corazones de los demás con su alegría y su encanto. La ilusión con la que afronta cada situación hace que todo resulte más sencillo de lograr.",
     "movimiento": "Polen de felicidad",
-    "avatar": ""
+    "avatar": "assets/pokedex/carmen.png"
   },
   {
     "id": "gonzalo",
@@ -165,23 +165,23 @@
     "tipo": "Agua",
     "habilidad": "Lleva su sonrisa a todos lados y, aunque en silencio, es capaz de generar una burbuja de buen ambiente a su alrededor, permitiendo que cualquiera se sienta cómodo a su lado.",
     "movimiento": "Manantial sereno",
-    "avatar": ""
+    "avatar": "assets/pokedex/gonzalo.png"
   },
   {
     "id": "marta",
     "nombre": "Marta",
     "tipo": "Psíquico",
-    "habilidad": "Pone orden al caos mental, planteando ideas maduras y profundas. Es capaz de reflexionar y hacer pensar a los demás. Sus ganas de ayudar y de aprender son infinitas.",
-    "movimiento": "Lluvia de pensamientos",
-    "avatar": ""
+    "habilidad": "Pone orden al caos mental a través de ideas maduras y profundas. Es capaz de reflexionar y hacer pensar a los demás. Sus ganas de ayudar y de aprender son infinitas.",
+    "movimiento": "Tormenta psíquica",
+    "avatar": "assets/pokedex/marta.png"
   },
   {
     "id": "paula",
     "nombre": "Paula",
     "tipo": "Planta",
-    "habilidad": "Es silenciosa y parece pasar desapercibida, pero cuando nadie lo espera florece y muestra al mundo la magnitud y el esplendor de su mundo interior.",
+    "habilidad": "Es silenciosa y parece pasar desapercibida, pero cuando nadie lo espera florece y muestra a todos la magnitud y el esplendor de su mundo interior.",
     "movimiento": "Florecer mágico",
-    "avatar": ""
+    "avatar": "assets/pokedex/paula.png"
   },
   {
     "id": "cristinav",
@@ -189,7 +189,7 @@
     "tipo": "Eléctrico",
     "habilidad": "Lleva el ritmo en las venas, contagia las ganas de vibrar a todo el mundo con sus bailes.",
     "movimiento": "Danza de energía",
-    "avatar": ""
+    "avatar": "assets/pokedex/cristinav.png"
   },
   {
     "id": "rafa",
@@ -197,7 +197,7 @@
     "tipo": "Fuego",
     "habilidad": "Está atento a todo lo que pasa a su alrededor, motiva y da cariño a los demás y afronta todos los retos con mucha ilusión y ganas de disfrutar.",
     "movimiento": "Lanzallamas de ánimo",
-    "avatar": ""
+    "avatar": "assets/pokedex/rafa.png"
   },
   {
     "id": "damon",
@@ -205,7 +205,7 @@
     "tipo": "Eléctrico",
     "habilidad": "Atrae a los compañeros con sus locas ideas y genera momentos de gran diversión cuando menos lo esperamos.",
     "movimiento": "Campo magnético",
-    "avatar": ""
+    "avatar": "assets/pokedex/damon.png"
   },
   {
     "id": "paco",
@@ -213,6 +213,6 @@
     "tipo": "Fuego",
     "habilidad": "Es tierno, cercano y cariñoso. Siempre tendrá una buena palabra y un buen gesto para la gente que le rodea.",
     "movimiento": "Abrazo cálido",
-    "avatar": ""
+    "avatar": "assets/pokedex/paco.png"
   }
 ]
