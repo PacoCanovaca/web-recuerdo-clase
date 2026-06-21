@@ -8,7 +8,6 @@ export const initPokedex = () => {
     const modalTipo = document.getElementById('poke-modal-tipo');
     const modalHabilidad = document.getElementById('poke-modal-habilidad');
     const modalMovimiento = document.getElementById('poke-modal-movimiento');
-    const modalRecomendacion = document.getElementById('poke-modal-recomendacion');
 
     let datosAlumnos = []; 
 
@@ -58,7 +57,6 @@ export const initPokedex = () => {
         modalTipo.textContent = alumno.tipo;
         modalHabilidad.textContent = alumno.habilidad;
         modalMovimiento.textContent = alumno.movimiento;
-        modalRecomendacion.textContent = alumno.recomendacion;
 
         modalTipo.className = 'type-badge';
         const tipoClase = alumno.tipo

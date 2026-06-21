@@ -1,48 +1,11 @@
 [
   {
-    "id": "ana",
-    "nombre": "Ana",
-    "tipo": "Eléctrico",
-    "habilidad": "Siempre tiene energía para ayudar.",
-    "movimiento": "Pregunta Inesperada.",
-    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Ana",
-    "recomendacion": "Nunca pierdas esa curiosidad que te hace aprender cosas nuevas."
-  },
-  {
-    "id": "carlos",
-    "nombre": "Carlos",
-    "tipo": "Fuego",
-    "habilidad": "Entusiasmo contagioso en los trabajos en equipo.",
-    "movimiento": "Chiste en el momento justo.",
-    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Carlos",
-    "recomendacion": "Sigue contagiando esa alegría allá donde vayas el próximo curso."
-  },
-  {
-    "id": "lucia",
-    "nombre": "Lucía",
-    "tipo": "Psíquico",
-    "habilidad": "Gran estratega en el torneo de ajedrez.",
-    "movimiento": "Silencio absoluto de concentración.",
-    "avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Lucia",
-    "recomendacion": "Tu constancia y mente analítica te llevarán lejísimos. ¡Confía en ti!"
-  },
-  {
-    "id": "",
-    "nombre": "",
-    "tipo": "",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
-  },
-  {
     "id": "hugo",
     "nombre": "Hugo",
     "tipo": "Fuego",
-    "habilidad": "Aporta grandes ideas y lidera al grupo cuando más se le necesita",
-    "movimiento": "Llama creativa",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Tiene un gran liderazgo y aporta grandes ideas cuando el grupo más lo necesita. Genera una llama que atrae a los compañeros hacia él.",
+    "movimiento": "Ascuas creativas",
+    "avatar": ""
   },
   {
     "id": "samu",
@@ -50,214 +13,206 @@
     "tipo": "Psíquico",
     "habilidad": "Aunque los demás piensen que es despistado, es capaz de centrar su atención y sacar el máximo de aquello que le genera interés.",
     "movimiento": "Súper-concentración",
-    "avatar": "",
-    "recomendacion": ""
+    "avatar": ""
   },
   {
     "id": "miguel",
     "nombre": "Miguel",
     "tipo": "Lucha",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Pelea con el cuerpo pero también con la mente. Tiene una gran capacidad creativa y una importante habilidad para llamar al orden y a la justicia.",
+    "movimiento": "Contraataque argumentativo",
+    "avatar": ""
   },
   {
     "id": "gabriela",
     "nombre": "Gabriela",
     "tipo": "Agua",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Afronta los retos con paz y una actitud tranquila, apaciguando los nervios de sus compañeros y generando un clima de relajación y despreocupación.",
+    "movimiento": "Ola de calma",
+    "avatar": ""
   },
   {
     "id": "abraham",
     "nombre": "Abraham",
     "tipo": "Eléctrico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "A veces parece tranquilo, pero en realidad está guardando energía para desplegar toda su electricidad en aquellas actividades que más le gustan.",
+    "movimiento": "Disparo sobrecargado",
+    "avatar": ""
   },
   {
     "id": "alberto",
     "nombre": "Alberto",
     "tipo": "Psíquico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Aporta datos curiosos y culturales a cada situación de aprendizaje. Deja con la boca abierta a cualquiera con sus conocimientos (hasta a los propios profes).",
+    "movimiento": "Pantallazo de sabiduría",
+    "avatar": ""
   },
   {
     "id": "leomo",
     "nombre": "Leo Mo.",
     "tipo": "Planta",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Tiene un gran corazón. Es trabajador, comprometido y siempre quiere que los demás se sientan bien. Todo el mundo disfruta de la grandeza que guarda en su interior.",
+    "movimiento": "Semilla de bondad",
+    "avatar": ""
   },
   {
     "id": "alicia",
     "nombre": "Alicia",
     "tipo": "Agua",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "No tiene ninguna preocupación, es capaz de ver algo bueno en cada situación complicada y cuida de las personas que le rodean.",
+    "movimiento": "Río de adaptabilidad",
+    "avatar": ""
   },
   {
     "id": "angel",
     "nombre": "Ángel",
     "tipo": "Fuego",
-    "habilidad": "Contagia su cariño y su entusiasmo a las personas que le rodean",
+    "habilidad": "Contagia su cariño y su entusiasmo a las personas que le rodean. La llama que lleva dentro se transmite con facilidad.",
     "movimiento": "Fuego interior",
-    "avatar": "",
-    "recomendacion": ""
+    "avatar": ""
   },
   {
     "id": "leomu",
     "nombre": "Leo Mu.",
     "tipo": "Eléctrico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Es capaz de romper la tensión del momento con una salida divertida e inesperada. La cantidad de risas que saca genera energía infinita.",
+    "movimiento": "Cortocircuito cómico",
+    "avatar": ""
   },
   {
     "id": "david",
     "nombre": "David",
     "tipo": "Lucha",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Tiene una gran capacidad de implicarse con sus labores. Lucha hasta el final, dándolo todo de sí mismo, superando retos que nadie creía poder lograr.",
+    "movimiento": "Fuerza de voluntad extrema",
+    "avatar": ""
   },
   {
     "id": "hector",
     "nombre": "Héctor",
     "tipo": "Psíquico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Tiene la capacidad de conectar puntos de manera magistral. Pocas personas son capaces de expresar ideas y pensamientos complejos como él. Cuando cuenta algo, todos quieren escuchar.",
+    "movimiento": "Hipnosis narrativa",
+    "avatar": ""
   },
   {
     "id": "ayla",
     "nombre": "Ayla",
     "tipo": "Agua",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Transmite alegría y sube el ánimo a cualquiera con sus ganas y su buena disposición para superar los obstáculos. Todos quieren contagiarse de ella.",
+    "movimiento": "Chapuzón optimista",
+    "avatar": ""
   },
   {
     "id": "julia",
     "nombre": "Julia",
     "tipo": "Planta",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Tiene la sonrisa más bonita y sincera, tanto por lo que refleja en el exterior como por lo que guarda dentro. Aporta oxígeno de la mejor calidad a las personas que la rodean.",
+    "movimiento": "Refugio purificador del alma",
+    "avatar": ""
   },
   {
     "id": "olivia",
     "nombre": "Olivia",
     "tipo": "Eléctrico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Siempre tiene la mano levantada para intervenir y siempre está dispuesta a ayudar a cualquiera que lo necesite con sus conocimientos. Puede aportar su granito de arena en cada situación.",
+    "movimiento": "Impactrueno participativo",
+    "avatar": ""
   },
   {
     "id": "cristinar",
     "nombre": "Cristina R.",
     "tipo": "Fuego",
-    "habilidad": "Aporta confianza y alegría al grupo. Todos quieren estar cerca de ella",
+    "habilidad": "Aporta confianza y alegría al grupo. Todos quieren estar cerca de ella para sentirse felices y acompañados.",
     "movimiento": "Hoguera de amistad",
-    "avatar": "",
-    "recomendacion": ""
+    "avatar": ""
   },
   {
     "id": "jaime",
     "nombre": "Jaime",
     "tipo": "Agua",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Fluye con una sonrisa contagiosa ante todos los cambios y desafíos que se le presentan.",
+    "movimiento": "Corriente alegre",
+    "avatar": ""
+  },
+  {
+    "id": "jesus",
+    "nombre": "Jesús",
+    "tipo": "Planta",
+    "habilidad": "Establece vínculos fuertes y sinceros, aportando su compromiso y siendo vitamina para los que están a su alrededor. Además, tiene una gran habilidad oculta para resolver misterios.",
+    "movimiento": "Hoja afilada de confianza",
+    "avatar": ""
+  },
+  {
+    "id": "miriam",
+    "nombre": "Miriam",
+    "tipo": "Lucha",
+    "habilidad": "A pesar de las dificultades, es una luchadora. Pelea hasta el final y no se rinde nunca. Es capaz de adaptarse y a encontrar su sitio en cualquier lugar. Cuando sufre una derrota, resurge más fuerte.",
+    "movimiento": "Golpe de resiliencia",
+    "avatar": ""
   },
   {
     "id": "carmen",
     "nombre": "Carmen",
     "tipo": "Planta",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Conmueve y vuelve locos los corazones de los demás con su alegría y su encanto. La ilusión con la que afronta cada situación hace que todo resulte más sencillo de lograr.",
+    "movimiento": "Polen de felicidad",
+    "avatar": ""
   },
   {
     "id": "gonzalo",
     "nombre": "Gonzalo",
     "tipo": "Agua",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Lleva su sonrisa a todos lados y, aunque en silencio, es capaz de generar una burbuja de buen ambiente a su alrededor, permitiendo que cualquiera se sienta cómodo a su lado.",
+    "movimiento": "Manantial sereno",
+    "avatar": ""
   },
   {
     "id": "marta",
     "nombre": "Marta",
     "tipo": "Psíquico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Pone orden al caos mental, planteando ideas maduras y profundas. Es capaz de reflexionar y hacer pensar a los demás. Sus ganas de ayudar y de aprender son infinitas.",
+    "movimiento": "Lluvia de pensamientos",
+    "avatar": ""
   },
   {
     "id": "paula",
     "nombre": "Paula",
     "tipo": "Planta",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Es silenciosa y parece pasar desapercibida, pero cuando nadie lo espera florece y muestra al mundo la magnitud y el esplendor de su mundo interior.",
+    "movimiento": "Florecer mágico",
+    "avatar": ""
   },
   {
     "id": "cristinav",
     "nombre": "Cristina V.",
     "tipo": "Eléctrico",
-    "habilidad": "",
-    "movimiento": "Danza moderna",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Lleva el ritmo en las venas, contagia las ganas de vibrar a todo el mundo con sus bailes.",
+    "movimiento": "Danza de energía",
+    "avatar": ""
   },
   {
     "id": "rafa",
     "nombre": "Rafa",
     "tipo": "Fuego",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Está atento a todo lo que pasa a su alrededor, motiva y da cariño a los demás y afronta todos los retos con mucha ilusión y ganas de disfrutar.",
+    "movimiento": "Lanzallamas de ánimo",
+    "avatar": ""
   },
   {
     "id": "damon",
     "nombre": "Damon",
     "tipo": "Eléctrico",
-    "habilidad": "",
-    "movimiento": "",
-    "avatar": "",
-    "recomendacion": ""
+    "habilidad": "Atrae a los compañeros con sus locas ideas y genera momentos de gran diversión cuando menos lo esperamos.",
+    "movimiento": "Campo magnético",
+    "avatar": ""
   },
   {
     "id": "paco",
     "nombre": "Paco",
     "tipo": "Fuego",
-    "habilidad": "",
+    "habilidad": "Es tierno, cercano y cariñoso. Siempre tendrá una buena palabra y un buen gesto para la gente que le rodea.",
     "movimiento": "Abrazo cálido",
-    "avatar": "",
-    "recomendacion": ""
+    "avatar": ""
   }
 ]
